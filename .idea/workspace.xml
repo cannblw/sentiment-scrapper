@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ec2c580-b090-4a23-a8e7-4cfe2484f0a0" name="Default Changelist" comment="Update workspace config">
+    <list default="true" id="8ec2c580-b090-4a23-a8e7-4cfe2484f0a0" name="Default Changelist" comment="Add simple scrapper">
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rss.go" beforeDir="false" afterPath="$PROJECT_DIR$/rss.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapper.go" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +49,16 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunManager">
-    <configuration name="go build scrapper.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build edgarchirivella.com/sentiment-scrapper" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="sentiment-scrapper" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/scrapper.go" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$" />
       <package value="edgarchirivella.com/sentiment-scrapper" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build scrapper.go" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603398656329</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update workspace">
+      <created>1603399019551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603399019551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Install Colly">
+      <created>1603399033676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603399033676</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +118,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create scrapper.go" />
     <MESSAGE value="Update workspace config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace config" />
+    <MESSAGE value="Update workspace" />
+    <MESSAGE value="Install Colly" />
+    <MESSAGE value="Add simple scrapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add simple scrapper" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
