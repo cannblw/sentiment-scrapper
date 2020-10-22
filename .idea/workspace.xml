@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ec2c580-b090-4a23-a8e7-4cfe2484f0a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scrapper.go" afterDir="false" />
+    <list default="true" id="8ec2c580-b090-4a23-a8e7-4cfe2484f0a0" name="Default Changelist" comment="Update workspace config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper.go" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,21 @@
       <option name="presentableId" value="Default" />
       <updated>1603384776996</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create scrapper.go">
+      <created>1603398631740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603398631740</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update workspace config">
+      <created>1603398656329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603398656329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +103,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create scrapper.go" />
+    <MESSAGE value="Update workspace config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace config" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
