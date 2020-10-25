@@ -6,7 +6,8 @@ import (
 	"github.com/mmcdole/gofeed"
 )
 
-func main() {
+// TODO: Rename this function
+func TodoRenameThisFunctionBecauseItDoesNothing() {
 	fp := gofeed.NewParser()
 	feed, _ := fp.ParseURL("http://rss.nytimes.com/services/xml/rss/nyt/sunday-review.xml")
 
