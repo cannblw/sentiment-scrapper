@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8ec2c580-b090-4a23-a8e7-4cfe2484f0a0" name="Default Changelist" comment="Add simple scrapper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rss.go" beforeDir="false" afterPath="$PROJECT_DIR$/rss.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="go build edgarchirivella.com/sentiment-scrapper" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="sentiment-scrapper" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="edgarchirivella.com/sentiment-scrapper" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build edgarchirivella.com/sentiment-scrapper" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="sentiment-scrapper" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603652477206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rename main method which is not main anymore">
+      <created>1603652509641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603652509641</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add files to workspace">
+      <created>1603652523369</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603652523369</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +143,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -127,7 +170,8 @@
     <MESSAGE value="Add simple scrapper" />
     <MESSAGE value="Install project dependencies" />
     <MESSAGE value="Rename main method which is not main anymore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename main method which is not main anymore" />
+    <MESSAGE value="Add files to workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add files to workspace" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
