@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec2c580-b090-4a23-a8e7-4cfe2484f0a0" name="Default Changelist" comment="Add simple scrapper">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +141,35 @@
       <option name="project" value="LOCAL" />
       <updated>1603657057051</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create gitignore">
+      <created>1603748649825</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603748649826</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Install DynamoDB library">
+      <created>1603748671804</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603748671804</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update workspace">
+      <created>1603748680089</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603748680089</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add .env.example">
+      <created>1603748692645</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603748692645</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,14 +202,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create scrapper.go" />
     <MESSAGE value="Update workspace config" />
-    <MESSAGE value="Update workspace" />
     <MESSAGE value="Install Colly" />
     <MESSAGE value="Add simple scrapper" />
     <MESSAGE value="Install project dependencies" />
     <MESSAGE value="Rename main method which is not main anymore" />
     <MESSAGE value="Add files to workspace" />
     <MESSAGE value="Add files to handle database connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add files to handle database connection" />
+    <MESSAGE value="Create gitignore" />
+    <MESSAGE value="Install DynamoDB library" />
+    <MESSAGE value="Update workspace" />
+    <MESSAGE value="Add .env.example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .env.example" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
