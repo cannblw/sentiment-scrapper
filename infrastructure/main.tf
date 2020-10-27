@@ -13,6 +13,14 @@ provider "aws" {
   region = var.aws_region
 }
 
+resource "aws_iam_policy" "dynamodb_policy" {
+  name        = var.dynamodb_policy_name
+  path        = "/"
+  description = "Policy to grant read and write permissions to sentiment-scrapper's db"
+
+  policy = data.dynamodb_policy_document
+}
+
 resource "aws_dynamodb_table" "database" {
   name           = var.dynamodb_table_name
   billing_mode   = "PROVISIONED"

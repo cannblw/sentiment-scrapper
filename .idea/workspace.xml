@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ec2c580-b090-4a23-a8e7-4cfe2484f0a0" name="Default Changelist" comment="Add simple scrapper">
+      <change afterPath="$PROJECT_DIR$/infrastructure/policies.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/terraform.example.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/terraform.example.tfvars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603827622557</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Improve error handling">
+      <created>1603827815987</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603827815987</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix DynamoDB init">
+      <created>1603828966434</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603828966434</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +284,9 @@
     <MESSAGE value="Update workspace" />
     <MESSAGE value="Update go.mod" />
     <MESSAGE value="Add basic logic to store News item to DynamoDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add basic logic to store News item to DynamoDB" />
+    <MESSAGE value="Improve error handling" />
+    <MESSAGE value="Fix DynamoDB init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix DynamoDB init" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
