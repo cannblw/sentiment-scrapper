@@ -11,7 +11,7 @@ import (
 
 var dynamoDbInstance *dynamodb.DynamoDB
 
-func init() {
+func InitDynamoDb() {
 	dynamoDbRegion := os.Getenv("AWS_DYNAMODB_REGION")
 	dynamoDbEndpoint := os.Getenv("AWS_DYNAMODB_ENDPOINT")
 

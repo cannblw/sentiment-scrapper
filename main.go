@@ -14,6 +14,8 @@ func main() {
 		log.Fatal(err)
 	}
 
+	InitDynamoDb()
+
 	url := "https://www.nytimes.com/2020/09/26/opinion/sunday/trump-cuomo-new-york-revenge.html"
 
 	err, content := GetNewsItemContent(url)
