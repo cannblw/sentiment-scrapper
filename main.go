@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"edgarchirivella.com/sentiment-scrapper/entity"
 	"github.com/joho/godotenv"
 	"log"
 )
@@ -12,13 +12,20 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	InitializeDynamodb()
+	url := "https://www.nytimes.com/2020/09/26/opinion/sunday/trump-cuomo-new-york-revenge.html"
 
-	err, content := GetNewsItemContent("https://www.nytimes.com/2020/09/26/opinion/sunday/trump-cuomo-new-york-revenge.html")
-
+	err, content := GetNewsItemContent(url)
 	if err != nil {
-		fmt.Println("Error scrapping news item content")
+		log.Fatal("Error scrapping news item content")
 	}
 
-	fmt.Println(content)
+	newsItem := entity.NewsItem{
+		Url:     content,
+		Content: "Lorem Ipsum",
+	}
+
+	err = SaveNewsItem(newsItem)
+	if err != nil {
+		log.Fatal("Error saving news item to DynamoDB")
+	}
 }
