@@ -2,6 +2,7 @@ package main
 
 import (
 	"edgarchirivella.com/sentiment-scrapper/entity"
+	"fmt"
 	"github.com/joho/godotenv"
 	"log"
 )
@@ -9,14 +10,16 @@ import (
 func main() {
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatal("Error loading .env file")
+		fmt.Println("Error loading .env file")
+		log.Fatal(err)
 	}
 
 	url := "https://www.nytimes.com/2020/09/26/opinion/sunday/trump-cuomo-new-york-revenge.html"
 
 	err, content := GetNewsItemContent(url)
 	if err != nil {
-		log.Fatal("Error scrapping news item content")
+		fmt.Println("Error scrapping news item content")
+		log.Fatal(err)
 	}
 
 	newsItem := entity.NewsItem{
@@ -26,6 +29,7 @@ func main() {
 
 	err = SaveNewsItem(newsItem)
 	if err != nil {
-		log.Fatal("Error saving news item to DynamoDB")
+		fmt.Println("Error saving news item to DynamoDB")
+		log.Fatal(err)
 	}
 }
