@@ -16,7 +16,7 @@ provider "aws" {
 resource "aws_iam_policy" "dynamodb_policy" {
   name        = var.dynamodb_policy_name
   path        = "/"
-  description = "Policy to grant read and write permissions to sentiment-scrapper's db"
+  description = "Policy to grant permissions to access the DynamoDB table"
 
   policy = data.dynamodb_policy_document
 }
