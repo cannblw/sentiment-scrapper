@@ -19,5 +19,5 @@ func InitializeDynamodb() {
 	sess := session.Must(session.NewSession(config))
 
 	// TODO: Use this variable
-	svc := dynamodb.New(sess)
+	// svc := dynamodb.New(sess)
 }
