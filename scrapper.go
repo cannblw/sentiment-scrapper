@@ -8,7 +8,7 @@ import (
 
 const paragraphSeparator = " "
 
-func GetNewsItemContent(url string) (error, string) {
+func GetNewsItemContent(url string) (string, error) {
 	var newsItemContent string
 
 	c := colly.NewCollector(
@@ -28,5 +28,5 @@ func GetNewsItemContent(url string) (error, string) {
 
 	err := c.Visit(url)
 
-	return err, newsItemContent
+	return newsItemContent, err
 }
