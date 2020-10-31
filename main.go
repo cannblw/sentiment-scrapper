@@ -18,7 +18,7 @@ func main() {
 
 	url := "https://www.nytimes.com/2020/09/26/opinion/sunday/trump-cuomo-new-york-revenge.html"
 
-	err, content := GetNewsItemContent(url)
+	content, err := GetNewsItemContent(url)
 	if err != nil {
 		fmt.Println("Error scrapping news item content")
 		log.Fatal(err)
